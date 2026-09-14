@@ -1,5 +1,11 @@
 # archify-diagram-ps
 
+<!-- HERO IMAGE: replace docs/hero.png with a screenshot or GIF of a rendered interactive diagram.
+     Recommended: 1280×640, show a diagram with a node's detail panel open (ports/specs visible). -->
+<p align="center">
+  <img src="docs/hero.png" alt="archify-diagram-ps — an interactive architecture diagram rendered from an interview" width="100%">
+</p>
+
 **Turn your entire system into an interactive, detail-complete diagram — by answering questions, not drawing boxes.**
 
 `archify-diagram-ps` is a Claude skill that acts like a senior architect. Ask it for an **architecture, sequence, or flow/data-flow** diagram and it runs a thorough, batched **interview** — WAF and policies, DMZ, single vs. multi-node, VMs vs. physical machines (cores / RAM / storage / IP), internal *and* external load balancers, web/app tiers, every microservice (name / port / tech stack / purpose), which services talk directly vs. route through the LB or DMZ, databases, message queues, service-to-service links, API and external-system integrations, and full traffic routing.
